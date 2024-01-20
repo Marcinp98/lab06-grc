@@ -30,6 +30,8 @@ def main():
  
     with open("/tmp/wynik.txt", "w") as file:
         file.write(str(result))
- 
+
+    print(result) 
+
 if __name__ == "__main__":
     main()
